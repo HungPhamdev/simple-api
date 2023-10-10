@@ -1,0 +1,3 @@
+Add-Migration AppDbMigration1 -Project simple-api -Context SimpleDBContext -o Migrations
+
+Update-Database -Project simple-api -Context SimpleDBContext
